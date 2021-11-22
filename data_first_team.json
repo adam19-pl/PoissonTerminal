@@ -1,0 +1,71 @@
+{
+    "get": "teams",
+    "parameters": {
+        "name": "Arsenal"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "team": {
+                "id": 42,
+                "name": "Arsenal",
+                "country": "England",
+                "founded": 1886,
+                "national": false,
+                "logo": "https://media.api-sports.io/football/teams/42.png"
+            },
+            "venue": {
+                "id": 494,
+                "name": "Emirates Stadium",
+                "address": "Queensland Road",
+                "city": "London",
+                "capacity": 60383,
+                "surface": "grass",
+                "image": "https://media.api-sports.io/football/venues/494.png"
+            }
+        },
+        {
+            "team": {
+                "id": 4403,
+                "name": "Arsenal",
+                "country": "Guadeloupe",
+                "founded": null,
+                "national": true,
+                "logo": "https://media.api-sports.io/football/teams/4403.png"
+            },
+            "venue": {
+                "id": null,
+                "name": null,
+                "address": null,
+                "city": null,
+                "capacity": null,
+                "surface": null,
+                "image": null
+            }
+        },
+        {
+            "team": {
+                "id": 9419,
+                "name": "Arsenal",
+                "country": "Belarus",
+                "founded": null,
+                "national": false,
+                "logo": "https://media.api-sports.io/football/teams/9419.png"
+            },
+            "venue": {
+                "id": 11595,
+                "name": "Stadyen Haradski",
+                "address": "ul. Naberezhnaya 22a",
+                "city": "Dzerzhinsk",
+                "capacity": 1100,
+                "surface": "grass",
+                "image": "https://media.api-sports.io/football/venues/11595.png"
+            }
+        }
+    ]
+}
